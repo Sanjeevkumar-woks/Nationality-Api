@@ -49,15 +49,9 @@ h3{
 p{
     margin: 20px;
 }
-#para{
-   padding: 10px 40px;
-   text-align: left;
-}
-
 #learn-btn, #get-start-btn{
     margin:  2rem;
 }
-
 
 /* dividing-v-section */
 .vl {
@@ -66,7 +60,6 @@ p{
     border-inline-start-width:thin;
    padding: 0px;
   }
-
 
   /* left-section */
   #inputName{
@@ -97,7 +90,7 @@ p{
 
   /* open-source-section */
   #open-source{
-    padding: 100px 0;
+    padding: 100px 0px;
     text-align: center;
     align-items: center;
     background-color: white;
@@ -110,7 +103,7 @@ p{
 
   /* Git-Section */
   #github{
-      padding: 100px 0;
+      padding: 100px 0px;
       background: linear-gradient(to right,#2E51A2,#1B7AC2);
       align-items: center;
       text-align: center;

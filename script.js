@@ -40,7 +40,7 @@ bodydiv.innerHTML=`
                             <div class="left">
                                 <h1>Nationality API</h1>
                                 <h3>Unofficial Nationality Check</h3>
-                                <p id="para">Nationality (時間) is an open-source  API for the Nationality check by the name of individuals. you can check the Nationality easily.</p>
+                                <p>Nationality (時間) is an open-source  API for the Nationality check by the name of individuals. you can check the Nationality easily.</p>
                                 <button class="btn btn-lg btn-outline-info" id="learn-btn">Learn More</button>
                                 <button class="btn btn-lg btn-light" id="get-start-btn">Get Started</button>
                             </div>

@@ -1,4 +1,4 @@
-const bodytag=document.getElementByTagName("body");
+const bodytag=document.getElementsByTagName("body");
 //creating Div element
 const bodydiv=document.createElement("div");
 bodydiv.setAttribute("class","row row-1 row-sm-2 row-md-4");

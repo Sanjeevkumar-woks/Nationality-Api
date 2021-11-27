@@ -1,4 +1,4 @@
-const bodytag=document.getElementById("body");
+const bodytag=document.getElementByTagName("body");
 //creating Div element
 const bodydiv=document.createElement("div");
 bodydiv.setAttribute("class","row row-1 row-sm-2 row-md-4");
@@ -121,7 +121,7 @@ bodydiv.innerHTML=`
         </div>
 `;
 //appending the div tag to body tag in HTML file using DOM
-bodytag.appendChild(bodydiv);
+bodytag[0].appendChild(bodydiv);
 
 //Footer Creation
 const html=document.getElementsByTagName("html");

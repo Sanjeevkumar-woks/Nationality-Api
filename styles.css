@@ -116,7 +116,9 @@ p{
       text-align: center;
       justify-content: center;
   }
-  
+  .git{
+      color: white;
+  }
 
   /* Footer */
   footer{

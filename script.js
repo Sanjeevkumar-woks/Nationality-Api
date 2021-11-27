@@ -28,9 +28,9 @@ bodydiv.innerHTML=`
 
                         <!-- Favicon-section -->
                         <div class="favicon ml-auto">
-                            <button class="btn btn-sm"><i id="navfav" class="fab fa-patreon fa-2x"></i></button>
-                            <button class="btn btn-sm"><i id="navfav" class="fab fa-discord fa-2x" ></i></button>
-                            <button class="btn btn-sm"><i id="navfav" class="fab fa-github fa-2x"></i></i></button>           
+                            <button class="btn btn-sm git"><i id="navfav" class="fab fa-patreon fa-2x"></i></button>
+                            <button class="btn btn-sm git"><i id="navfav" class="fab fa-discord fa-2x" ></i></button>
+                            <button class="btn btn-sm"><a class="git" href="https://github.com/Sanjeevkumar-woks/Nationality-Api"><i id="navfav" class="fab fa-github fa-2x"></i></a></button>           
                         </div>
                     </nav>
         
@@ -107,7 +107,7 @@ bodydiv.innerHTML=`
                 <h2>Free & Open Source</h2>
                 <p>You can focus on making your app while we keep the requests rolling.</p>
                 <button class="btn btn-primary btn-lg">
-                    View Organization GitHub
+                   <a class="git" href="https://github.com/Sanjeevkumar-woks/Nationality-Api">View Organization GitHub</a>
                 </button>
                 </section>
         </div>
@@ -116,7 +116,7 @@ bodydiv.innerHTML=`
         <div class="col-12">
             <section id="github" >
                 <h2>Come say hello!</h2>
-                <button class="btn btn-lg"><i class="fab fa-github-square fa-2x"></i></button>
+                <button class="btn btn-lg"><a class="git" href="https://github.com/Sanjeevkumar-woks/Nationality-Api"><i class="fab fa-github-square fa-2x"></i></a></button>
             </section>
         </div>
 `;
